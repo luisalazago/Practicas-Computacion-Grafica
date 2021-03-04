@@ -1,0 +1,4 @@
+﻿cl : línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
+  Cuerpo.cpp
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Nueva carpeta\Cuerpo.cpp(15,30): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+  TemplateProject.vcxproj -> C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Nueva carpeta\Debug\TemplateProject.exe

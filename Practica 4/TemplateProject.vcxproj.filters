@@ -75,9 +75,6 @@
     <ClInclude Include="cwc\include\glWindow.h">
       <Filter>cwc\include</Filter>
     </ClInclude>
-    <ClInclude Include="Cola.h">
-      <Filter>Classes</Filter>
-    </ClInclude>
     <ClInclude Include="glm\glm.h">
       <Filter>glm</Filter>
     </ClInclude>
@@ -91,6 +88,9 @@
       <Filter>Classes</Filter>
     </ClInclude>
     <ClInclude Include="Ogro.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Caballo.h">
       <Filter>Classes</Filter>
     </ClInclude>
   </ItemGroup>
@@ -177,9 +177,6 @@
       <Filter>cwc\source</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Cola.cpp">
-      <Filter>Classes</Filter>
-    </ClCompile>
     <ClCompile Include="glm\glm.cpp">
       <Filter>glm</Filter>
     </ClCompile>
@@ -193,6 +190,9 @@
       <Filter>Classes</Filter>
     </ClCompile>
     <ClCompile Include="Ogro.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Caballo.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,3 +1,18 @@
 ﻿cl : línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
   main.cpp
-  TemplateProject.vcxproj -> C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\OpenGL Plantilla\Debug\TemplateProject.exe
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(60,28): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(69,32): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(73,36): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(76,43): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(79,39): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(85,41): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(96,54): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(96,36): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(99,1): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(105,30): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(108,47): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(109,1): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(117,30): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(120,43): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(121,1): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+  TemplateProject.vcxproj -> C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\Debug\TemplateProject.exe

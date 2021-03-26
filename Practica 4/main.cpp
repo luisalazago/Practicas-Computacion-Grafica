@@ -6,11 +6,11 @@
 #include <GL/freeglut.h>
 #include "glApplication.h"
 #include "glutWindow.h"
-#include "Cola.h"
 #include "CasaNoble.h"
 #include "CasaPobre.h"
 #include "Molino.h"
 #include "Ogro.h"
+#include "Caballo.h"
 #include <iostream>
 #include "glsl.h"
 #include <time.h>
@@ -31,37 +31,98 @@ protected:
    CasaPobre casa_pobre;
    Molino molino;
    Ogro ogro;
+   Caballo rocinante;
 
 public:
 	myWindow(){}
 
 	virtual void OnRender(void)
 	{
-		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        double n, m, x;
+        n = 2; m = 2; x = 0.5;
+	  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	
       //timer010 = 0.09; //for screenshot!
       glPushMatrix();
       if (shader) shader->begin();
-         glTranslatef(0.0f, 0.0f, -10.0f);
+         glTranslatef(2.0f, 0.0f, -1.5f);
          glRotatef(timer010 * 360, 0.5, 1.0f, 0.1f);
 
+         //Casas nobles
+
+         //La casa de don quijote de la mancha
          glPushMatrix();
             casa_noble.dibujarCasaNoble();
          glPopMatrix();
 
+         //Casa noble del frente de don quijote
          glPushMatrix();
-            glTranslatef(3.0, 0.0, 0.0);
-            casa_pobre.dibujarCasaPobre();
+            glTranslatef(-1*n, 0, 0);
+            glRotatef(180, 0, 1, 0);
+            casa_noble.dibujarCasaNoble();
          glPopMatrix();
 
-         glPushMatrix();
-            glTranslatef(-3.0, 0.0, 0.0);
-            molino.dibujarMolino();
-         glPopMatrix();
+         //Casas pobres
 
          glPushMatrix();
-             glTranslatef(0.0, 3.0, 0.0);
-             ogro.dibujarOgro();
+             //Casa pobre 1
+            glTranslatef((-1*n)/2, 0, 0/*(-1 * m)*/);
+            /*glPushMatrix();
+                
+            glPopMatrix();*/
+            glTranslatef(0, 0, (-1 * m));
+            for (int i = 0; i < 2; ++i){
+                glPushMatrix();
+                    glTranslatef(0, 0, -1 * (i * 1));
+                    glScalef(0.25, 0.25, 0.25);
+                    glPushMatrix();
+                        glTranslatef(2*n, 0.0, 0.0);
+                        glRotatef(45, 0, 1, 0);
+                        casa_pobre.dibujarCasaPobre();
+                    glPopMatrix();
+
+                    glPushMatrix();
+                        glTranslatef(-2 * n, 0.0, 0.0);
+                        glRotatef(180, 0, 1, 0);
+                        casa_pobre.dibujarCasaPobre();
+                    glPopMatrix();
+                glPopMatrix();
+            }
+         glPopMatrix();
+
+         //Sector 3 ubicación molinos
+
+         glPushMatrix();
+            glTranslatef(((-1 * n) / 2), 0, (-1 * m) - 2);
+            // Caballo
+            glPushMatrix();
+                glTranslatef(0.3, -0.2, 0.5);
+                glScalef(0.25, 0.25, 0.25);
+                rocinante.dibujarCaballo();
+            glPopMatrix();
+            //Molinos
+            glPushMatrix();
+                glTranslatef(-x, 0, 0);
+                for (int i = 0; i < 2; ++i) {
+                    glPushMatrix();
+                        glTranslatef(0, 0, -1 * (i * 2));
+                        glScalef(0.33, 0.33, 0.33);
+                        molino.dibujarMolino();
+                    glPopMatrix();
+                }
+            glPopMatrix();
+
+            //Ogros
+            glPushMatrix();
+                glTranslatef(x, 0, 0);
+                for (int i = 0; i < 2; ++i) {
+                    glPushMatrix();
+                    glTranslatef(0, 0, -1 * (i * 2));
+                    glScalef(0.33, 0.33, 0.33);
+                    ogro.dibujarOgro();
+                    glPopMatrix();
+                }
+            glPopMatrix();
          glPopMatrix();
 
       if (shader) shader->end();
@@ -100,6 +161,7 @@ public:
       casa_pobre = CasaPobre();
       molino = Molino();
       ogro = Ogro();
+      rocinante = Caballo();
 
       DemoLight();
 

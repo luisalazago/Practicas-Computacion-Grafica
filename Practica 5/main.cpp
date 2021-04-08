@@ -26,7 +26,7 @@ protected:
    float timer010;  // timer counting 0->1->0
    bool bUp;        // flag if counting up or down.
    Caballo rocinante;
-   bool movX, movD, movA, movAbajo, rotarX, rotarD, rotarA, rotarAbajo, movZ1, movZ2;
+   bool movX, movD, movA, movAbajo, movZ1, movZ2;
    float camX, camY, camZ, rotX, rotY;
 
 public:
@@ -39,10 +39,6 @@ public:
         else if (movAbajo) camY += deltaX;
         else if (movZ1) camZ += deltaX;
         else if (movZ2) camZ -= deltaX;
-        else if (rotarX) rotX += deltaX;
-        else if (rotarD) rotX -= deltaX;
-        else if (rotarA) rotY -= deltaX;
-        else if (rotarAbajo) rotY += deltaX;
     }
 
 	virtual void OnRender(void)
@@ -56,7 +52,6 @@ public:
       if (shader) shader->begin();
         posCamara();
         glTranslatef(camX, camY, camZ);
-        glRotatef(0.0, rotX, rotY, 1.0);
         glPushMatrix();
             rocinante.dibujarCaballo();
         glPopMatrix();
@@ -95,7 +90,7 @@ public:
       rocinante = Caballo();
 
       DemoLight();
-      movX = movD = movA = movAbajo = rotarX = rotarD = rotarA = rotarAbajo = movZ1 = movZ2 = false;
+      movX = movD = movA = movAbajo = movZ1 = movZ2 = false;
       camX = camY = camZ = rotX = rotY = 0;
 	}
 
@@ -140,18 +135,6 @@ public:
             case 'w':
                 movA = true;
                 break;
-            case 'u':
-                rotarA = true;
-                break;
-            case 'h':
-                rotarD = true;
-                break;
-            case 'j':
-                rotarAbajo = true;
-                break;
-            case 'k':
-                rotarD = true;
-                break;
             case 'z':
                 movZ1 = true;
                 break;
@@ -179,18 +162,6 @@ public:
             break;
         case 'w':
             movA = false;
-            break;
-        case 'u':
-            rotarA = false;
-            break;
-        case 'h':
-            rotarD = false;
-            break;
-        case 'j':
-            rotarAbajo = false;
-            break;
-        case 'k':
-            rotarD = false;
             break;
         case 'z':
             movZ1 = false;

@@ -1,0 +1,13 @@
+﻿cl : línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
+  main.cpp
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(44,1): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(45,1): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(46,1): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(47,1): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(48,1): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(49,1): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(50,1): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(51,1): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(52,1): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\main.cpp(53,1): warning C4305: '+=': truncamiento de 'double' a 'float'
+  TemplateProject.vcxproj -> C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\Debug\TemplateProject.exe

@@ -1,0 +1,32 @@
+Calculo de Memoria requeria para almacenar las mallas
+
+Para calcular el tamaño en memoria de las mallas, asumimos que el espacio en disco (peso del archivo)
+sería el peso máximo que puede tener la malla en memoria. De esa manera se proseguirá a hacer los
+cálculos individuales de las mallas. Y el espacio en memoria total usado OpenGL.
+
+Tabla 1:
+ _________________________________________________________________________
+|Nombre de la malla| Tipo de objeto|   Peso maximo   | cantidad de objetos|
+|                  |               | posible (en KB) |      pintados      |
+|__________________|_______________|_________________|____________________|
+|   Casa Noble     |  Artificial   |      877 KB     |          2         |
+|__________________|_______________|_________________|____________________|
+|   Casa Pobre     |  Artificial   |      224 KB     |          4         |
+|__________________|_______________|_________________|____________________|
+|     Molino       |  Construido   |       38 KB     |          2         |
+|                  | por nosotros  |                 |                    |
+|__________________|_______________|_________________|____________________|
+|      Ogro        |   Natural     |      759 KB     |          2         |
+|__________________|_______________|_________________|____________________|
+|    Rocinante     |   Natural     |      604 KB     |          1         |
+|__________________|_______________|_________________|____________________|
+
+Para estas mallas se crearon distintas clases. Y en el programa principal se creó un único objeto para
+cada malla, que se fue pintando en distintas partes. Por ejemplo, creamos un objeto tipo Molino, que
+se pintó dos veces. El problema de esta aproximación es que hay que hacer las transformaciones en el
+archivo main.
+
+Una posible mejora seria tener un vector de objetos, y que cada objeto tuviera atributos relacionados a 
+su traslación, rotación, escalado y la malla. Con esto se lograría tener un main más limpio y con menos 
+variables.
+

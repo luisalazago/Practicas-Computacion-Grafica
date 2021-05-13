@@ -1,0 +1,682 @@
+# Blender MTL File: 'None'
+# Material Count: 56
+
+newmtl Door
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 C:\\Users\\BigDoor_normal.jpg
+map_Kd C:\\Users\\BigDoor.jpg
+
+newmtl Door.001
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 C:\\Users\\BigDoor_normal.jpg
+map_Kd C:\\Users\\BigDoor.jpg
+
+newmtl Door.002
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 C:\\Users\\BigDoor_normal.jpg
+map_Kd C:\\Users\\BigDoor.jpg
+
+newmtl Door.004
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 C:\\Users\\BigDoor_normal.jpg
+map_Kd C:\\Users\\BigDoor.jpg
+
+newmtl Door.005
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 C:\\Users\\BigDoor_normal.jpg
+map_Kd C:\\Users\\BigDoor.jpg
+
+newmtl Door.006
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 C:\\Users\\BigDoor_normal.jpg
+map_Kd C:\\Users\\BigDoor.jpg
+
+newmtl Door.007
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 C:\\Users\\BigDoor_normal.jpg
+map_Kd C:\\Users\\BigDoor.jpg
+
+newmtl Door.008
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 C:\\Users\\BigDoor_normal.jpg
+map_Kd C:\\Users\\BigDoor.jpg
+
+newmtl Plaster
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 10.000000 10.000000 1.000000 C:\\Users\\PlasterDull2kT_normal.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\Users\\Admin\\Desktop\\CgTraderPublish\\Textures\\PlasterDull2kT.jpg
+
+newmtl Plaster.001
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 10.000000 10.000000 1.000000 C:\\Users\\PlasterDull2kT_normal.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\HP\\Admin\\Desktop\\CgTraderPublish\\Textures\\PlasterDull2kT.jpg
+
+newmtl Plaster.002
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 10.000000 10.000000 1.000000 C:\\Users\\PlasterDull2kT_normal.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\HP\\Admin\\Desktop\\CgTraderPublish\\Textures\\PlasterDull2kT.jpg
+
+newmtl Plaster.004
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 10.000000 10.000000 1.000000 C:\\Users\\PlasterDull2kT_normal.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\HP\\Admin\\Desktop\\CgTraderPublish\\Textures\\PlasterDull2kT.jpg
+
+newmtl Plaster.005
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 10.000000 10.000000 1.000000 C:\\Users\\PlasterDull2kT_normal.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\HP\\Admin\\Desktop\\CgTraderPublish\\Textures\\PlasterDull2kT.jpg
+
+newmtl Plaster.006
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 10.000000 10.000000 1.000000 C:\\Users\\PlasterDull2kT_normal.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\HP\\Admin\\Desktop\\CgTraderPublish\\Textures\\PlasterDull2kT.jpg
+
+newmtl Plaster.007
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 10.000000 10.000000 1.000000 C:\\Users\\PlasterDull2kT_normal.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\HP\\Admin\\Desktop\\CgTraderPublish\\Textures\\PlasterDull2kT.jpg
+
+newmtl Plaster.008
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 10.000000 10.000000 1.000000 C:\\Users\\PlasterDull2kT_normal.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\HP\\Admin\\Desktop\\CgTraderPublish\\Textures\\PlasterDull2kT.jpg
+
+newmtl Roof
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT_normal.jpg
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT.jpg
+
+newmtl Roof.001
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT_normal.jpg
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT.jpg
+
+newmtl Roof.002
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT_normal.jpg
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT.jpg
+
+newmtl Roof.004
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT_normal.jpg
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT.jpg
+
+newmtl Roof.005
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT_normal.jpg
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT.jpg
+
+newmtl Roof.006
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT_normal.jpg
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT.jpg
+
+newmtl Roof.007
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT_normal.jpg
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT.jpg
+
+newmtl Roof.008
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT_normal.jpg
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kT.jpg
+
+newmtl RoofBOT
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT_normal.png
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+map_d -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+
+newmtl RoofBOT.001
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT_normal.png
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+map_d -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+
+newmtl RoofBOT.002
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT_normal.png
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+map_d -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+
+newmtl RoofBOT.004
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT_normal.png
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+map_d -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+
+newmtl RoofBOT.005
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT_normal.png
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+map_d -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+
+newmtl RoofBOT.006
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT_normal.png
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+map_d -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+
+newmtl RoofBOT.007
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT_normal.png
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+map_d -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+
+newmtl RoofBOT.008
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Bump -bm 0.200000 -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT_normal.png
+map_Kd -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+map_d -s 3.000000 1.000000 1.000000 C:\\Users\\RoofSlate2kBOT.png
+
+newmtl Stone
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.600000 -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kNOR.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kDiffuse.jpg
+
+newmtl Stone.001
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.600000 -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kNOR.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kDiffuse.jpg
+
+newmtl Stone.002
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.600000 -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kNOR.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kDiffuse.jpg
+
+newmtl Stone.004
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.600000 -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kNOR.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kDiffuse.jpg
+
+newmtl Stone.005
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.600000 -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kNOR.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kDiffuse.jpg
+
+newmtl Stone.006
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.600000 -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kNOR.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kDiffuse.jpg
+
+newmtl Stone.007
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.600000 -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kNOR.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kDiffuse.jpg
+
+newmtl Stone.008
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.600000 -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kNOR.jpg
+map_Kd -s 10.000000 10.000000 1.000000 C:\\Users\\BlocksT2kDiffuse.jpg
+
+newmtl WIndows
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.200000 C:\\Users\\WindowTudor_normal.jpg
+map_Kd C:\\Users\\WindowTudor.jpg
+
+newmtl WIndows.001
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.200000 C:\\Users\\WindowTudor_normal.jpg
+map_Kd C:\\Users\\WindowTudor.jpg
+
+newmtl WIndows.002
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.200000 C:\\Users\\WindowTudor_normal.jpg
+map_Kd C:\\Users\\WindowTudor.jpg
+
+newmtl WIndows.004
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.200000 C:\\Users\\WindowTudor_normal.jpg
+map_Kd C:\\Users\\WindowTudor.jpg
+
+newmtl WIndows.005
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.200000 C:\\Users\\WindowTudor_normal.jpg
+map_Kd C:\\Users\\WindowTudor.jpg
+
+newmtl WIndows.006
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.200000 C:\\Users\\WindowTudor_normal.jpg
+map_Kd C:\\Users\\WindowTudor.jpg
+
+newmtl WIndows.007
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.200000 C:\\Users\\WindowTudor_normal.jpg
+map_Kd C:\\Users\\WindowTudor.jpg
+
+newmtl WIndows.008
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.200000 C:\\Users\\WindowTudor_normal.jpg
+map_Kd C:\\Users\\WindowTudor.jpg
+
+newmtl Wood
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 2.000000 2.000000 1.000000 C:\\Users\\WoodOldGrayish2_normal.jpg
+map_Kd C:\\Users\\WoodOldDark2Diffuse.jpg
+
+newmtl Wood.001
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 2.000000 2.000000 1.000000 C:\\Users\\WoodOldGrayish2_normal.jpg
+map_Kd C:\\Users\\WoodOldDark2Diffuse.jpg
+
+newmtl Wood.002
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 2.000000 2.000000 1.000000 C:\\Users\\WoodOldGrayish2_normal.jpg
+map_Kd C:\\Users\\WoodOldDark2Diffuse.jpg
+
+newmtl Wood.004
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 2.000000 2.000000 1.000000 C:\\Users\\WoodOldGrayish2_normal.jpg
+map_Kd C:\\Users\\WoodOldDark2Diffuse.jpg
+
+newmtl Wood.005
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 2.000000 2.000000 1.000000 C:\\Users\\WoodOldGrayish2_normal.jpg
+map_Kd C:\\Users\\WoodOldDark2Diffuse.jpg
+
+newmtl Wood.006
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 2.000000 2.000000 1.000000 C:\\Users\\WoodOldGrayish2_normal.jpg
+map_Kd C:\\Users\\WoodOldDark2Diffuse.jpg
+
+newmtl Wood.007
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 2.000000 2.000000 1.000000 C:\\Users\\WoodOldGrayish2_normal.jpg
+map_Kd C:\\Users\\WoodOldDark2Diffuse.jpg
+
+newmtl Wood.008
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 -s 2.000000 2.000000 1.000000 C:\\Users\\WoodOldGrayish2_normal.jpg
+map_Kd C:\\Users\\WoodOldDark2Diffuse.jpg

@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\Nueva carpeta\Debug\TemplateProject.exe
+C:\Users\HP\Desktop\Nueva carpeta\Debug\TemplateProject.pdb
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Nueva carpeta\Debug\TemplateProject.exe
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Nueva carpeta\Debug\TemplateProject.pdb
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\OpenGL Plantilla\Debug\TemplateProject.exe
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\OpenGL Plantilla\Debug\TemplateProject.pdb
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Esceneraio Blnder\OpenGL Plantilla\Debug\TemplateProject.exe
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Esceneraio Blnder\OpenGL Plantilla\Debug\TemplateProject.pdb
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\Debug\TemplateProject.exe
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escenario Blender\OpenGLPlantilla\Debug\TemplateProject.pdb
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escena Blender\OpenGLPlantilla\Debug\TemplateProject.exe
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Escena Blender\OpenGLPlantilla\Debug\TemplateProject.pdb

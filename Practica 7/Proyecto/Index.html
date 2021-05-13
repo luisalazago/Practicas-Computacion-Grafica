@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Three.js App</title>
+    <style>
+      html, body { margin: 0; padding: 0; overflow: hidden; }
+    </style>
+  </head>
+  <body>
+    
+    <script src="https://threejs.org/build/three.js"></script>
+	<script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+	
+    <script>
+
+    //inicialización
+    var n = 2;
+    var m = 2;
+    var x = 0.5;
+    var r = 1.50;
+
+		var light = new THREE.DirectionalLight( 0xffffff, 1 );
+
+    var texture_casa1 = new THREE.TextureLoader().load( "./Texturas/Medieval_House_Diff.jpg" );
+    var texture_casa2 = new THREE.TextureLoader().load( "./Texturas/Medieval_House_Nor.jpg" );
+    var texture_casa3 = new THREE.TextureLoader().load( "./Texturas/Medieval_House_Spec.jpg" );
+		var texture_libro1 = new THREE.TextureLoader().load( "./Texturas/libro.jpg" )
+    var texture_libro2 = new THREE.TextureLoader().load( "./Texturas/libroEspecular.jpg" )
+    
+    light.position.set( -20, 20, 20 );
+		
+		
+		var scene = new THREE.Scene();
+        var aspect = window.innerWidth / window.innerHeight;
+        var camera = new THREE.PerspectiveCamera( 75, aspect, 0.1, 1000 );
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        document.body.appendChild( renderer.domElement );
+		
+		
+		
+		scene.add(light);
+
+    // funciones
+
+    //creación de las cosas porbres
+    function crear_casa_probre(posx, posy, posz, escalamiento, rotacion) {
+      var loader = new THREE.ObjectLoader();
+      loader.load("./Mallas/casa_pobre.json", function( group ) {
+      mesh = group.children[0];
+        mesh.material = new THREE.MeshPhongMaterial({map: texture_casa1, normalMap: texture_casa2, specularMap: texture_casa3});
+        mesh.position.x = posx;
+        mesh.scale.x = 1/escalamiento;
+        mesh.scale.y = 1/escalamiento;
+        mesh.scale.z = 1/escalamiento;
+        scene.add( mesh );
+		  });
+    }
+
+    function crear_DonQuijote(posx, posy, posz, escalamiento, rotacion) {
+      var loader = new THREE.ObjectLoader();
+      loader.load("./Mallas/don_quijote.json", function( group ) {
+      mesh = group.children[0];
+        mesh.material = new THREE.MeshPhongMaterial({map: texture_libro1, specularMap: texture_libro2});
+        mesh.position.x = posx;
+        mesh.scale.x = 1/escalamiento;
+        mesh.scale.y = 1/escalamiento;
+        mesh.scale.z = 1/escalamiento;
+        mesh.rotation.x = rotacion;
+        scene.add( mesh );
+		  });
+    }
+
+    function crear_gigante(posx, posy, posz, escalamiento, rotacion) {
+      var loader = new THREE.ObjectLoader();
+      loader.load("./Mallas/ogro.json", function( group ) {
+      mesh = group.children[0];
+        mesh.material = new THREE.MeshPhongMaterial({color: 0xaaaaaa, specular: 0x333333});
+        mesh.position.x = posx;
+        mesh.position.z = posz;
+        mesh.scale.x = 1/escalamiento;
+        mesh.scale.y = 1/escalamiento;
+        mesh.scale.z = 1/escalamiento;
+        // mesh.rotation.x = rotacion;
+        scene.add( mesh );
+		  });
+    }
+
+    function crear_molino(posx, posy, posz, escalamiento, rotacion) {
+      var loader = new THREE.ObjectLoader();
+      loader.load("./Mallas/molino.json", function( group ) {
+      mesh = group.children[0];
+        mesh.material = new THREE.MeshPhongMaterial({color: 0xaaaaaa, specular: 0x333333});
+        mesh.position.x = posx;
+        mesh.position.z = posz;
+        // mesh.scale.x = 1/escalamiento;
+        // mesh.scale.y = 1/escalamiento;
+        // mesh.scale.z = 1/escalamiento;
+        // mesh.rotation.x = rotacion;
+        scene.add( mesh );
+		  });
+    }
+
+    function crear_casa_noble(posx, posy, posz, escalamiento, rotacion) {
+      var loader = new THREE.ObjectLoader();
+      loader.load("./Mallas/casa_noble.json", function( group ) {
+      mesh = group.children[0];
+        mesh.material = new THREE.MeshPhongMaterial({color: 0xaaaaaa, specular: 0x333333});
+        mesh.position.x = posx;
+        mesh.position.z = posz;
+        // mesh.scale.x = 1/escalamiento;
+        // mesh.scale.y = 1/escalamiento;
+        // mesh.scale.z = 1/escalamiento;
+        mesh.rotation.y = rotacion;
+        scene.add( mesh );
+		  });
+    }
+
+    function crear_rocinante(posx, posy, posz, escalamiento, rotacion) {
+      var loader = new THREE.ObjectLoader();
+      loader.load("./Mallas/rocinante.json", function( group ) {
+      mesh = group.children[0];
+        mesh.material = new THREE.MeshPhongMaterial({color: 0xaaaaaa, specular: 0x333333});
+        mesh.position.x = posx;
+        mesh.position.z = posz;
+        mesh.position.y = posy;
+        // mesh.scale.x = 1/escalamiento;
+        // mesh.scale.y = 1/escalamiento;
+        // mesh.scale.z = 1/escalamiento;
+        //mesh.rotation.y = rotacion;
+        scene.add( mesh );
+		  });
+    }
+
+    function crear_sancho(posx, posy, posz, escalamiento, rotacion) {
+      var loader = new THREE.ObjectLoader();
+      loader.load("./Mallas/gordi.json", function( group ) {
+      mesh = group.children[0];
+        mesh.material = new THREE.MeshPhongMaterial({color: 0xaaaaaa, specular: 0x333333});
+        mesh.position.x = posx;
+        mesh.position.z = posz;
+        mesh.position.y = posy;
+        // mesh.scale.x = 1/escalamiento;
+        // mesh.scale.y = 1/escalamiento;
+        // mesh.scale.z = 1/escalamiento;
+        //mesh.rotation.y = rotacion;
+        scene.add( mesh );
+		  });
+    }
+		
+
+        var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+        var material = new THREE.MeshNormalMaterial();
+        camera.position.z = 5;
+		controls = new THREE.OrbitControls( camera, renderer.domElement );
+	
+
+    crear_casa_probre(0, 0, 0, 64, 0);
+    crear_casa_probre(5, 0, 0, 64, 0);
+    crear_casa_probre(10, 0, 0, 64, 0);
+    crear_casa_probre(15, 0, 0, 64, 0);
+    crear_DonQuijote(-5, 0, 0, 16, r);
+    crear_rocinante(-5, -5, 0, 16, r);
+    crear_sancho(-10, 0, 0, 16, r);
+    crear_casa_noble(30, 0, 30, 1.5, r*2);
+    crear_gigante(0, 0, 5, 1.5, r);
+    crear_gigante(5, 0, 5, 1.5, r);
+    crear_gigante(10, 0, 5, 1.5, r);
+    crear_gigante(15, 0, 5, 1.5, r);
+    crear_molino(0, 0, 15, 1.5, r);
+    crear_molino(5, 0, 15, 1.5, r);
+    crear_molino(10, 0, 15, 1.5, r);
+    crear_molino(15, 0, 15, 1.5, r);
+    crear_casa_noble(-15, 0, 30, 1.5, 0);
+    crear_casa_noble(30, 0, 30, 1.5, r*2);
+		
+
+        var render = function () {
+          requestAnimationFrame( render );
+          //cube.rotation.x += 0.1;
+          //cube.rotation.y += 0.1;
+          
+          renderer.render( scene, camera );
+        };
+
+        render();  
+    </script>
+  </body>
+</html>
+
+
+

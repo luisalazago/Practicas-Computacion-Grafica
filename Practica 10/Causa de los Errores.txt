@@ -1,0 +1,11 @@
+31 de mayo de 2021
+
+Antes de la aparición de lo siguientes errores, se muestra en la imagen "Carga" en como se
+está configurado previamente todo antes de instalar el setup de Android.
+
+	1. Ocurrió un error con cuando se trató de hacer un build and run en android, que
+   	   va ligada con la imagen "Error1".
+
+	2. Oucrrió otro error cuando se exportaba diciendo que faltaba algo del JDK que ya
+   	   estaba configurado previamente, asociado con la imagen "Error2".
+
